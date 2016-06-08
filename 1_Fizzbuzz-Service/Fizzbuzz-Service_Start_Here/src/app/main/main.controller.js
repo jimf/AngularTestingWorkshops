@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController(FizzbuzzService, $log, $timeout) {
+  function MainController(FizzbuzzService, $log) {
     var vm = this;
 
     $log.log('calling fizzbuzz');
